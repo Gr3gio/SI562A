@@ -17,6 +17,5 @@ public class Main {
         //Criando lista de cursos registrados:
         List<CourseRegistration> cursosRegistrados = new ArrayList<>();
 
-
     }
 }
