@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -7,6 +10,13 @@ public class Main {
         System.out.printf("+++++++++++++++++++++++++++++++++++++\n");
         System.out.printf("Estrutura de Arquivos II - Bem vindo!");
         System.out.printf("\n+++++++++++++++++++++++++++++++++++++");
-//
+
+        //Criando lista de estudantes:
+        List<Student> listaDeAlunos = new ArrayList<>();
+
+        //Criando lista de cursos registrados:
+        List<CourseRegistration> cursosRegistrados = new ArrayList<>();
+
+
     }
 }
